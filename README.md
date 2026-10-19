@@ -1,69 +1,50 @@
-📰 TechNews Today - Portal de Notícias Tech
+# 💻 TechNews Today
 
-O TechNews Today é um projeto web frontend moderno para um portal de notícias sobre tecnologia. Ele apresenta um design responsivo com cards estilizados, suporte a vídeos incorporados, área para leitura expandida e formulário de inscrição em newsletter.
+## 📌 Sobre o projeto
 
-🚀 Tecnologias Utilizadas
+O **TechNews Today** é um portal de notícias sobre tecnologia, desenvolvido com HTML5 e CSS3. O site apresenta conteúdos sobre inteligência artificial, vídeos relacionados à tecnologia e um formulário para inscrição em uma newsletter.
 
-HTML5: Estruturação semântica da página (uso de tags como <header>, <main>, <article>, <details>, <section>, <footer>).
+## 🚀 Tecnologias utilizadas
 
-CSS3: Estilização moderna utilizando:
+- **HTML5:** estruturação do conteúdo da página.
+- **CSS3:** estilização, cores, gradientes, efeitos visuais e responsividade.
+- **YouTube Embed:** incorporação de vídeo na página.
 
-CSS Grid & Flexbox para layout responsivo.
+## ✨ Funcionalidades
 
-Glassmorphic Effect e Gradientes visuais.
+- Cabeçalho com o nome do portal e uma breve descrição.
+- Artigo em destaque sobre inteligência artificial no desenvolvimento de software.
+- Seção de leitura adicional com conteúdo expansível.
+- Vídeo incorporado do YouTube.
+- Formulário de inscrição na newsletter.
+- Seleção de áreas de interesse.
+- Campo de e-mail com validação e aceitação obrigatória dos termos.
+- Efeitos visuais com gradientes, transparência e animações ao passar o mouse.
+- Layout com Grid e ajustes para diferentes tamanhos de tela.
 
-Transições e Animações CSS para interatividade nos elementos.
+## 🎨 Layout
 
-Media Queries para adaptação em telas menores (smartphones) e maiores (desktops).
+O projeto apresenta um visual moderno e colorido, com tons de rosa, azul e amarelo, além de cartões com cantos arredondados e efeitos de transparência.
 
-🎨 Funcionalidades e Destaques
+## 📂 Estrutura dos arquivos
 
-Cabeçalho com Efeito Glassmorphism:
+```text
+10a_desafio/
+├── 10a_desafio.html
+├── 10a_desafio.css
+└── README.md
+```
 
-Título estilizado com gradiente de texto e fundo dinâmico com blur.
+## ▶️ Como executar
 
-Artigo em Destaque:
+1. Baixe ou clone o repositório.
+2. Mantenha os arquivos HTML e CSS na mesma pasta.
+3. Abra o arquivo `10a_desafio.html` no navegador.
 
-Card interativo com suporte à tag nativa <details> e <summary> para a funcionalidade "Leia mais" sem necessidade de JavaScript.
+## 📚 Objetivo educacional
 
-Mídia Incorporada:
+Este projeto foi desenvolvido para praticar conceitos de HTML semântico, estilização com CSS, organização de conteúdo, formulários, incorporação de vídeos e criação de layouts responsivos.
 
-Integração com player do YouTube via <iframe>.
+---
 
-Formulário de Newsletter:
-
-Opção de seleção de áreas de interesse (IA, Mobile, Web).
-
-Validação de campos obrigatórios e aceite dos termos de uso.
-
-Design Responsivo:
-
-Layout fluido que se ajusta automaticamente entre dispositivos móveis e desktops.
-
-📁 Estrutura de Arquivos
-
-.
-├── 10a_desafio.html  # Estrutura HTML do projeto
-├── 10a_desafio.css   # Estilos CSS e responsividade
-└── README.md         # Documentação do projeto
-
-
-🔧 Como Executar o Projeto
-
-Faça o download ou clone o repositório em sua máquina.
-
-Abra o arquivo 10a_desafio.html diretamente em qualquer navegador web moderno (Google Chrome, Firefox, Edge, Safari).
-
-Alternativamente, você pode utilizar uma extensão como o Live Server no VS Code para rodar o projeto localmente.
-
-🛠️ Possíveis Melhorias Futuras
-
-[ ] Adicionar JavaScript para tornar o formulário funcional e exibir confirmação ao se inscrever.
-
-[ ] Implementar modo escuro (Dark Mode) / modo claro (Light Mode).
-
-[ ] Adicionar mais seções de notícias e categorias.
-
-[ ] Melhorar a acessibilidade (A11y) adicionando atributos aria-* complementares.
-
-📌 Projeto desenvolvido para fins de estudos e desafios de desenvolvimento web
+Desenvolvido como atividade prática de desenvolvimento web. 💗
