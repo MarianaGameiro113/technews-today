@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews Today</title>
+    <link rel="stylesheet" href="10a_desafio.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">TechNews Today</h1>
+        <p class="subtitulo">As <strong>últimas</strong> notícias de tecnologia em um só lugar</p>
+    </header>
+
+    <main class="conteudo">
+        <article class="artigo-destaque"> 
+            <h2>IA Revoluciona Desenvolvimento</h2>
+            <time datetime="2023-10-01">1º de outubro de 2023</time>
+            <p>A inteligência artificial está revolucionando o processo de desenvolvimento de software, aumentando a produtividade e permitindo a criação de soluções mais avançadas...</p>
+
+            <details class="leia-mais">
+                <summary>Leia mais ➳</summary>
+                <p>Os benefícios da IA no desenvolvimento de software são diversos e impactantes. Além de aumentar a produtividade, a IA pode ajudar a identificar e corrigir erros de forma mais eficiente, além de automatizar tarefas repetitivas, permitindo que os desenvolvedores se concentrem em atividades mais estratégicas e criativas.</p>
+            </details>
+        </article>
+
+        <section class="secao-video">
+            <h3>Tech em Vídeo</h3>
+            <iframe class="video-embed" width="400" height="250" src="https://www.youtube.com/embed/eqUFcr1mI3Y" title="Tech News Today" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </video>
+        </section>
+
+        <section class="secao-newsletter">
+            <h2>Newsletter</h2>
+            <form action="subscribe.php" method="post" class="form-newsletter">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="interesse">Área de Interesse:</label>
+                <select id="interesse" name="interesse">
+                    <option value="desenvolvimento">Inteligência Artificial</option>
+                    <option value="seguranca">Desenvolvimento Mobile</option>
+                    <option value="mobile">Tecnologias Web</option>
+                </select>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="aceito" name="aceito" required>
+                    <label for="aceito">Aceito os termos e condições</label>
+                </div>
+
+                <button type="submit" class="btn-inscrever">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2023 TechNews Today. Todos os direitos reservados.</p>
+        <adress>Contato: <a href="mailto:info@technews.com">info@technews.com</a></adress>
+    </footer>
+</body>
+</html>
